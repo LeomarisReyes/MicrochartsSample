@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A05B0383-5DAF-417C-B222-915BF283CDB3}|Default">
+  <MonoDevelop.Ide.ItemProperties.MicrochartsSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AE92AC75-B954-4A15-9687-8DF63DE66B1D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="MicrochartsSample/Views/MicrochartPage.xaml.cs" Line="22" Column="13" />
+      <File FileName="MicrochartsSample/ViewModel/DisplayChartViewModel.cs" Line="18" Column="28" />
+      <File FileName="MicrochartsSample/Views/MicrochartPage.xaml" Line="44" Column="1" />
+      <File FileName="MicrochartsSample/obj/Debug/MicrochartsSample.Views.MicrochartPage.xaml.g.cs" Line="20" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="22" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MicrochartsSample.Droid PreferredExecutionTarget="Android.01d16723cf9d46e2" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MicrochartsSample.Views.MicrochartPage"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ContentPage.Content> 
+        <ScrollView>
+             <StackLayout>
+                
+                <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="BarChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView  Chart="{Binding BarChartSample}" HeightRequest="210" /> 
+                </StackLayout> 
+               
+                <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="LineChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView Chart="{Binding LineChartSample}" HeightRequest="210" /> 
+                </StackLayout>  
+
+                <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="PointChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView Chart="{Binding PointChartSample}" HeightRequest="210" /> 
+                </StackLayout>
+
+                 <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="RadielGaugeChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView Chart="{Binding RadielGaugeChartSample}" HeightRequest="210" /> 
+                </StackLayout>
+
+                 <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="DonutChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView Chart="{Binding DonutChartSample}" HeightRequest="210" /> 
+                </StackLayout>
+
+                 <StackLayout BackgroundColor="#D5D3DC">
+                        <Label Text="RadarChart" FontSize="14" FontAttributes="Bold" TextColor="White" />
+                        <microcharts:ChartView Chart="{Binding RadarChartSample}" HeightRequest="210" /> 
+                </StackLayout>
+                
+             </StackLayout>  
+      </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
